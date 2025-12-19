@@ -2,9 +2,25 @@
 using namespace std;
 
 void sort(int arr[],int size){
-
+	bool flag=false;
+ for(int i=0;i<size-1;++i){
+  for(int j=0;i<size-1;++j){
+    if(arr[j]>arr[j+1]){
+      int tmp=arr[j];
+      arr[j]=arr[j+1];
+      arr[j+1]=tmp;
+      flag=true;
+}
+if(!flag)break;
+}
+}
 
 }
+
+
+
+
+
 int main(){
 
 int arr[]={1,3,72,9,34};
