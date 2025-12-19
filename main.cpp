@@ -2,9 +2,10 @@
 using namespace std;
 
 void sort(int arr[],int size){
-	bool flag=false;
+
+	bool flag=false;{
  for(int i=0;i<size-1;++i){
-  for(int j=0;i<size-1;++j){
+  for(int j=0;j<size-1-i;++j){5
     if(arr[j]>arr[j+1]){
       int tmp=arr[j];
       arr[j]=arr[j+1];
@@ -13,9 +14,10 @@ void sort(int arr[],int size){
 }
 if(!flag)break;
 }
-}
+
 
 }
+
 
 
 
