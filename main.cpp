@@ -2,26 +2,19 @@
 using namespace std;
 
 void sort(int arr[],int size){
-
-	bool flag=false;{
- for(int i=0;i<size-1;++i){
-  for(int j=0;j<size-1-i;++j){5
-    if(arr[j]>arr[j+1]){
-      int tmp=arr[j];
-      arr[j]=arr[j+1];
-      arr[j+1]=tmp;
-      flag=true;
+	bool flag=false;
+ 	for(int i=0;i<size-1;++i){
+  		for(int j=0;j<size-1-i;++j){
+   			 if(arr[j]>arr[j+1]){
+     		 int tmp=arr[j];
+     		 arr[j]=arr[j+1];
+     		 arr[j+1]=tmp;
+     		 flag=true;
+			}
+		}
+	if(!flag)break;
+	}
 }
-if(!flag)break;
-}
-
-
-}
-
-
-
-
-
 
 int main(){
 
@@ -33,7 +26,7 @@ for(int i:arr){
 }
 cout<<endl;
 cout<<"这是一次错误的修改"<<endl;
-#linux添加注释信息
-#mac添加注释信息
+//linux添加注释信息
+//mac添加注释信息
 return 0;
 }
