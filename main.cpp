@@ -26,6 +26,7 @@ for(int i:arr){
 	cout<<i<<" ";
 }
 cout<<endl;
+cout<<"这是一次错误的修改"<<endl;
 
 return 0;
 }
