@@ -34,5 +34,6 @@ for(int i:arr){
 cout<<endl;
 cout<<"这是一次错误的修改"<<endl;
 #linux添加注释信息
+#mac添加注释信息
 return 0;
 }
