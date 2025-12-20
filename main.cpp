@@ -17,16 +17,16 @@ void sort(int arr[],int size){
 }
 
 int main(){
-
-int arr[]={1,3,72,9,34};
-int size=sizeof(arr)/sizeof(arr[0]);
-sort(arr,size);
-for(int i:arr){
-	cout<<i<<" ";
-}
-cout<<endl;
-cout<<"这是一次错误的修改"<<endl;
-//linux添加注释信息
-//mac添加注释信息
-return 0;
+	cout<<"尝试创建本地分支"<<endl;
+	int arr[]={1,3,72,9,34};
+	int size=sizeof(arr)/sizeof(arr[0]);
+	sort(arr,size);
+	for(int i:arr){
+		cout<<i<<" ";
+	}
+	cout<<endl;
+	cout<<"这是一次错误的修改"<<endl;
+	//linux添加注释信息
+	//mac添加注释信息
+	return 0;
 }
