@@ -18,6 +18,7 @@ void sort(int arr[],int size){
 
 int main(){
 	cout<<"尝试创建本地分支"<<endl;
+	cout<<"尝试删除文件"<<endl;
 	int arr[]={1,3,72,9,34};
 	int size=sizeof(arr)/sizeof(arr[0]);
 	sort(arr,size);
