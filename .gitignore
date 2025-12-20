@@ -1,0 +1,14 @@
+# 编译产物
+*.o
+*.out
+a.out
+main
+
+# 只保留源码
+!*.cpp
+!*.h
+
+
+build/
+!build/README.md
+
